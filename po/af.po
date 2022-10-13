@@ -1,0 +1,213 @@
+# Afrikaans translation for nautilus-sendto.
+# Copyright (C) 2010 nautilus-sendto's COPYRIGHT HOLDER
+# This file is distributed under the same license as the nautilus-sendto package.
+# F Wolff <friedel@translate.org.za>, 2010, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-sendto master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product"
+"=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-07-24 09:46+0000\n"
+"PO-Revision-Date: 2013-09-27 10:37+0200\n"
+"Last-Translator: F Wolff <friedel@translate.org.za>\n"
+"Language-Team: translate-discuss-af@lists.sourceforge.net\n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Project-Style: gnome\n"
+
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
+msgstr ""
+
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr ""
+
+#: ../src/nautilus-sendto.c:55
+#| msgid "Unable to send file"
+msgid "Files to send"
+msgstr "Lêers om te stuur"
+
+#: ../src/nautilus-sendto.c:56
+msgid "Output version information and exit"
+msgstr "Druk weergawe-inligting en sluit af"
+
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:244
+msgid "Archive"
+msgstr "Argief"
+
+#: ../src/nautilus-sendto.c:511
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+msgstr "Kon nie opdraglynopsies ontleed nie: %s\n"
+
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "Geen e-posprogram is geïnstalleer nie – gaan nie lêers stuur nie\n"
+
+#: ../src/nautilus-sendto.c:530
+#, c-format
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Verwag URI's of lêername om as opsies aangegee te word\n"
+
+#~ msgid "Last plugin used to send"
+#~ msgstr "Laaste inprop wat gebruik is om te stuur"
+
+#~ msgid "Last type of archive used"
+#~ msgstr "Die tipe argief wat gebruik is"
+
+#~ msgid "_Send to..."
+#~ msgstr "_Stuur na..."
+
+#~ msgid "Send files to remote devices, or people"
+#~ msgstr "Stuur lêers na afgeleë toestelle of mense"
+
+#~ msgid "Send to..."
+#~ msgstr "Stuur na..."
+
+#~ msgid "Send To..."
+#~ msgstr "Stuur na..."
+
+#~ msgid "Send file by mail, instant message..."
+#~ msgstr "Stuur lêer per pos, kitsboodskap..."
+
+#~ msgid "Send files by mail, instant message..."
+#~ msgstr "Stuur lêers per pos, kitsboodskap..."
+
+#~ msgid "Files"
+#~ msgstr "Lêers"
+
+#~ msgid "Nautilus Sendto"
+#~ msgstr "Nautilus-stuurna"
+
+#~ msgid "Could not load any plugins."
+#~ msgstr "Kon nie enige inproppe laai nie."
+
+#~ msgid "Please verify your installation"
+#~ msgstr "Gaan asb. u installasie na"
+
+#~ msgid "<b>Compression</b>"
+#~ msgstr "<b>Saampersing</b>"
+
+#~ msgid "<b>Destination</b>"
+#~ msgstr "<b>Teiken</b>"
+
+#~ msgid "Send _as:"
+#~ msgstr "Stuur _as:"
+
+#~ msgid "Send _packed in:"
+#~ msgstr "Stuur _verpak in:"
+
+#~ msgid "Send t_o:"
+#~ msgstr "Stuur _na:"
+
+#~ msgid "_Send"
+#~ msgstr "_Stuur"
+
+#~ msgid "Programming error, could not find the device in the list"
+#~ msgstr "Programmeerfout. Kon nie die toestel in die lys kry nie"
+
+#~ msgid "The contact selected cannot receive files."
+#~ msgstr "Die gekose kontak kan nie lêers ontvang nie."
+
+#~ msgid "The contact selected is offline."
+#~ msgstr "Die gekose kontak is vanlyn."
+
+#~ msgid "No error message"
+#~ msgstr "Geen foutboodskap nie"
+
+#~ msgid "Instant Message (Empathy)"
+#~ msgstr "Kitsboodskap (Empathy)"
+
+#~ msgid "Email"
+#~ msgstr "E-pos"
+
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "Kan nie kontak kry nie: %s"
+
+#~ msgid "Could not find contact: %s"
+#~ msgstr "Kon nie kontak kry vind nie: %s"
+
+#~ msgid "Success"
+#~ msgstr "Sukses"
+
+#~ msgid "The address book is busy."
+#~ msgstr "Die adresboek is besig."
+
+#~ msgid "The address book is offline."
+#~ msgstr "Die adresboek is vanlyn."
+
+#~ msgid "The address book does not exist."
+#~ msgstr "Die adresboek bestaan nie."
+
+#~ msgid "The address book is not loaded."
+#~ msgstr "Die adresboek is nie gelaai nie."
+
+#~ msgid "The address book is already loaded."
+#~ msgstr "Die adresboek is reeds gelaai."
+
+#~ msgid "The contact was not found."
+#~ msgstr "Die kontak is nie gevind nie."
+
+#~ msgid "This contact ID already exists."
+#~ msgstr "Die kontak-ID bestaan reeds."
+
+#~ msgid "The protocol is not supported."
+#~ msgstr "Die protokol word nie ondersteun nie."
+
+#, fuzzy
+#~ msgid "The operation was cancelled."
+#~ msgstr "Die bewerking is gekanselleer."
+
+#, fuzzy
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "Die bewerking kon nie gekanselleer word nie."
+
+#~ msgid "A secure connection is not available."
+#~ msgstr "'n Beveiligde verbinding is nie beskikbaar nie."
+
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "'n CORBA-fout het voorgekom tydens toegang tot die adresboek."
+
+#~ msgid "An unknown error occurred."
+#~ msgstr "'n Onbekende fout het voorgekom."
+
+#~ msgid "Sending file failed"
+#~ msgstr "Kon lêer nie stuur nie"
+
+#, fuzzy
+#~ msgid "Recipient is missing."
+#~ msgstr "Ontvanger is weg."
+
+#~ msgid "Unknown recipient."
+#~ msgstr "Onbekende ontvanger."
+
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Kitsboodskap (Gajim)"
+
+#~ msgid "New CD/DVD"
+#~ msgstr "Nuwe CD/DVD"
+
+#~ msgid "Existing CD/DVD"
+#~ msgstr "Bestaande CD/DVD"
+
+#, fuzzy
+#~ msgid "CD/DVD Creator"
+#~ msgstr "CD/DVD-skepper"
+
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Kitsboodskap (Pidgin)"
+
+#, fuzzy
+#~ msgid "Removable disks and shares"
+#~ msgstr "Verwyderbare skywe en gedeelde netwerkgidse"
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "UPnP-mediabediener"

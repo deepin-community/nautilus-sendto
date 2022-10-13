@@ -1,0 +1,317 @@
+# Ukrainian translation of nautilus-sendto.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2005-2010
+# Korostil Daniel <ted.korostiled@gmail.com>, 2011, 2012.
+# Daniel Korostil <ted.korostiled@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-sendto\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-21 19:31+0300\n"
+"PO-Revision-Date: 2013-09-21 19:32+0300\n"
+"Last-Translator: Daniel Korostil <ted.korostiled@gmail.com>\n"
+"Language-Team: linux.org.ua\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
+msgstr "Запустити з каталогу збірки (зігноровано)"
+
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "Використовувати XID як батьківський для вікон надсилання (зігноровано)"
+
+#: ../src/nautilus-sendto.c:55
+msgid "Files to send"
+msgstr "Файли для надислання"
+
+#: ../src/nautilus-sendto.c:56
+msgid "Output version information and exit"
+msgstr "Вивести інформацію про версію програми та вийти"
+
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:244
+msgid "Archive"
+msgstr "Архів"
+
+#: ../src/nautilus-sendto.c:511
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+msgstr "Не вдалось розібрати параметри командного рядка: %s\n"
+
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "Не встановлено поштового клієнта, файли не надсилаються\n"
+
+#: ../src/nautilus-sendto.c:530
+#, c-format
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Очікується, що URI або назви файлів будуть передані як параметри\n"
+
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "Оприлюднення %d теки"
+#~ msgstr[1] "Оприлюднення %d тек"
+#~ msgstr[2] "Оприлюднення %d тек"
+
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "Оприлюднення %d тек і файлів"
+
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "Оприлюднення %d відео"
+#~ msgstr[1] "Оприлюднення %d відео"
+#~ msgstr[2] "Оприлюднення %d відео"
+
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "Оприлюднення %d світлини"
+#~ msgstr[1] "Оприлюднення %d світлин"
+#~ msgstr[2] "Оприлюднення %d світлин"
+
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "Оприлюднення %d зображення"
+#~ msgstr[1] "Оприлюднення %d зображень"
+#~ msgstr[2] "Оприлюднення %d зображень"
+
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "Оприлюднення %d текстового файла"
+#~ msgstr[1] "Оприлюднення %d текстових файлів"
+#~ msgstr[2] "Оприлюднення %d текстових файлів"
+
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "Оприлюднення %d файла"
+#~ msgstr[1] "Оприлюднення %d файлів"
+#~ msgstr[2] "Оприлюднення %d файлів"
+
+#~ msgid "_Send"
+#~ msgstr "_Надіслати"
+
+#~ msgid "Files"
+#~ msgstr "Файли"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Скасувати"
+
+#~ msgid "Send _packed in:"
+#~ msgstr "Надіслати _упакованим у:"
+
+#~ msgid "Mail"
+#~ msgstr "Лист"
+
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "Не вдалось отримати контакт: %s"
+
+#~ msgid "Could not find contact: %s"
+#~ msgstr "Не вдалось знайти контакт: %s"
+
+#~ msgid "Cannot create searchable view."
+#~ msgstr "Не вдалось створити вікно пошуку."
+
+#~ msgid "Success"
+#~ msgstr "Успішно"
+
+#~ msgid "An argument was invalid."
+#~ msgstr "Вказано неправильний аргумент."
+
+#~ msgid "The address book is busy."
+#~ msgstr "Адресна книга зайнята."
+
+#~ msgid "The address book is offline."
+#~ msgstr "Адресна книга вимкнена."
+
+#~ msgid "The address book does not exist."
+#~ msgstr "Адресна книга не існує."
+
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "Контакт «Я» не існує."
+
+#~ msgid "The address book is not loaded."
+#~ msgstr "Адресна книга не завантаження."
+
+#~ msgid "The address book is already loaded."
+#~ msgstr "Адресна книга вже завантажена."
+
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "Доступ до адресної книги заборонено."
+
+#~ msgid "The contact was not found."
+#~ msgstr "Контакт не знайдено."
+
+#~ msgid "This contact ID already exists."
+#~ msgstr "Ідентифікатор контакту вже існує."
+
+#~ msgid "The protocol is not supported."
+#~ msgstr "Протокол не підтримується."
+
+#~ msgid "The operation was cancelled."
+#~ msgstr "Операцію скасовано."
+
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "Операцію неможливо скасувати."
+
+#~ msgid "The address book authentication failed."
+#~ msgstr "Помилка автентифікації адресної книги."
+
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr "Для доступу до адресної книги потрібна автентифікація."
+
+#~ msgid "A secure connection is not available."
+#~ msgstr "Безпечне з'єднання недоступне."
+
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "При доступі до адресної книги виникла помилка CORBA."
+
+#~ msgid "The address book source does not exist."
+#~ msgstr "Джерело адресної книги не існує."
+
+#~ msgid "An unknown error occurred."
+#~ msgstr "Виникла невідома помилка."
+
+#~ msgid "Unable to send file"
+#~ msgstr "Не вдалось надіслати файл"
+
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "Немає з'єднання з сервісом gajim."
+
+#~ msgid "Sending file failed"
+#~ msgstr "Помилка при надсиланні"
+
+#~ msgid "Recipient is missing."
+#~ msgstr "Не вказано отримувача."
+
+#~ msgid "Unknown recipient."
+#~ msgstr "Невідомий отримувач."
+
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Миттєве повідомлення (Gajim)"
+
+#~ msgid "New CD/DVD"
+#~ msgstr "Новий CD/DVD"
+
+#~ msgid "Existing CD/DVD"
+#~ msgstr "Наявний CD/DVD"
+
+#~ msgid "CD/DVD Creator"
+#~ msgstr "Створення CD/DVD"
+
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Зв'язок (Pidgin)"
+
+#~ msgid "Removable disks and shares"
+#~ msgstr "Змінні диски та теки спільного доступу"
+
+#~ msgid "Uploading '%s'"
+#~ msgstr "Вивантаження «%s»"
+
+#~ msgid "Preparing upload"
+#~ msgstr "Підготовлення до вивентаження"
+
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "Службу «%s» не налаштовано."
+
+#~ msgid "_Configure"
+#~ msgstr "_Налаштувати"
+
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "Запущено службу «%s»."
+
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "Не вдалось запустити службу: «%s»."
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "Медіа-сервер UPnP"
+
+#~ msgid "Last plugin used to send"
+#~ msgstr "Останній модуль, що використовувався для надсилання"
+
+#~ msgid "Last type of archive used"
+#~ msgstr "Останній тип архіву, що використовувався"
+
+#~ msgid ""
+#~ "Used to store which plugin was used the last time files were sent using "
+#~ "nautilus-sendto."
+#~ msgstr ""
+#~ "Використовується для збереження архіву, що використовування останній раз."
+
+#~ msgid ""
+#~ "Used to store which type of archive was used the last time (0: zip, 1: "
+#~ "tar.gz, 2: tar.bz2)."
+#~ msgstr ""
+#~ "Використовується для збереження архіву, що використовувався останній раз "
+#~ "0: zip, 1: tar.gz, 2: tar.bz2)."
+
+#~ msgid "_Send to..."
+#~ msgstr "_Надіслати до..."
+
+#~ msgid "Send files to remote devices, or people"
+#~ msgstr "Надіслати файли на віддалений пристрій, або віддаленій особі"
+
+#~ msgid "Send to..."
+#~ msgstr "Надіслати до..."
+
+#~ msgid "Send To..."
+#~ msgstr "Надіслати до..."
+
+#~ msgid "Send file by mail, instant message..."
+#~ msgstr "Надіслати файл поштою, миттєвим повідомленням..."
+
+#~ msgid "Send files by mail, instant message..."
+#~ msgstr "Надіслати файли поштою, миттєвим повідомленням..."
+
+#~ msgid "Nautilus Sendto"
+#~ msgstr "Nautilus Sendto"
+
+#~ msgid "Could not load any plugins."
+#~ msgstr "Не вдається завантажити модулі."
+
+#~ msgid "Please verify your installation"
+#~ msgstr "Перевірте коректність встановлення"
+
+#~ msgid "<b>Compression</b>"
+#~ msgstr "<b>Стиснення</b>"
+
+#~ msgid "<b>Destination</b>"
+#~ msgstr "<b>Ціль</b>"
+
+#~ msgid "Send _as:"
+#~ msgstr "Надіслати _як:"
+
+#~ msgid "Send t_o:"
+#~ msgstr "Надіслати д_о:"
+
+#~ msgid "Programming error, could not find the device in the list"
+#~ msgstr "Помилка програмування: неможливо знайти пристрій у списку"
+
+#~ msgid "Obex Push file transfer unsupported"
+#~ msgstr "Передачі типу Obex Push не підтримуються"
+
+#~ msgid "Bluetooth (OBEX Push)"
+#~ msgstr "Bluetooth (OBEX Push)"
+
+#~ msgid "The contact selected cannot receive files."
+#~ msgstr "Обраний контакт не може отримувати файли."
+
+#~ msgid "The contact selected is offline."
+#~ msgstr "Обраний контакт не у мережі."
+
+#~ msgid "No error message"
+#~ msgstr "Немає повідомлення про помилку"
+
+#~ msgid "Instant Message (Empathy)"
+#~ msgstr "Миттєве повідомлення (Empathy)"
+
+#~ msgid "Email"
+#~ msgstr "Ел.пошта"

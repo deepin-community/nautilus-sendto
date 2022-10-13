@@ -1,0 +1,30 @@
+Source: nautilus-sendto
+Section: gnome
+Priority: optional
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: @GNOME_TEAM@
+Build-Depends: appstream,
+               debhelper-compat (= 12),
+               gnome-pkg-tools,
+               libgirepository1.0-dev (>= 0.6.7),
+               libglib2.0-dev (>= 2.25.9),
+               meson (>= 0.40.1)
+Standards-Version: 4.3.0
+Vcs-Browser: https://salsa.debian.org/gnome-team/nautilus-sendto
+Vcs-Git: https://salsa.debian.org/gnome-team/nautilus-sendto.git
+
+Package: nautilus-sendto
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Enhances: nautilus,
+          evince
+Description: easily send files via email from within Nautilus
+ The Nautilus Send To plugin provides the Nautilus file manager with a context
+ menu component for quickly sending files via email.
+ .
+ Supported email clients are Evolution, Thunderbird/Icedove, balsa and
+ Sylpheed/Claws.
+ .
+ Nautilus Send To also provides the option of compressing the files (tar.bz2,
+ tar.gz, or zip) before sending.

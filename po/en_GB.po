@@ -1,0 +1,359 @@
+# English (British) translation for nautilus-sendto
+# Copyright (C) 2005 The Gnome Foundation
+# This file is distributed under the same license as the nautilus-sendto package.
+# David Lodge <dave@cirt.net>, 2005
+# Bruce Cowan <bcowan@fastmail.co.uk>, 2010.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-sendto\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-08-22 16:01+0000\n"
+"PO-Revision-Date: 2016-09-04 13L57+0200\n"
+"Last-Translator: David King <amigadave@amigadave.com>\n"
+"Language-Team: British English <en@li.org>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#: ../src/nautilus-sendto.c:54
+msgid "Run from build directory (ignored)"
+msgstr "Run from build directory (ignored)"
+
+#: ../src/nautilus-sendto.c:55
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "Use XID as parent to the send dialogue (ignored)"
+
+#: ../src/nautilus-sendto.c:56
+msgid "Files to send"
+msgstr "Files to send"
+
+#: ../src/nautilus-sendto.c:57
+msgid "Output version information and exit"
+msgstr "Output version information and exit"
+
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:245
+msgid "Archive"
+msgstr "Archive"
+
+#: ../src/nautilus-sendto.c:543
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+msgstr "Could not parse command-line options: %s\n"
+
+#: ../src/nautilus-sendto.c:556
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "No mail client installed, not sending files\n"
+
+#: ../src/nautilus-sendto.c:562
+#, c-format
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Expects URIs or filenames to be passed as options\n"
+
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "Sharing %d folder"
+#~ msgstr[1] "Sharing %d folders"
+
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "Sharing %d folders and files"
+
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "Sharing %d video"
+#~ msgstr[1] "Sharing %d videos"
+
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "Sharing %d photo"
+#~ msgstr[1] "Sharing %d photos"
+
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "Sharing %d image"
+#~ msgstr[1] "Sharing %d images"
+
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "Sharing %d text file"
+#~ msgstr[1] "Sharing %d text files"
+
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "Sharing %d file"
+#~ msgstr[1] "Sharing %d files"
+
+#~ msgid "_Send"
+#~ msgstr "_Send"
+
+#~ msgid "Files"
+#~ msgstr "Files"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Cancel"
+
+#~ msgid "Send _packed in:"
+#~ msgstr "Send _packed in:"
+
+#~ msgid "Mail"
+#~ msgstr "Mail"
+
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "Cannot get contact: %s"
+
+#~ msgid "Could not find contact: %s"
+#~ msgstr "Could not find contact: %s"
+
+#~ msgid "Cannot create searchable view."
+#~ msgstr "Cannot create searchable view."
+
+#~ msgid "Success"
+#~ msgstr "Success"
+
+#~ msgid "An argument was invalid."
+#~ msgstr "An argument was invalid."
+
+#~ msgid "The address book is busy."
+#~ msgstr "The address book is busy."
+
+#~ msgid "The address book is offline."
+#~ msgstr "The address book is offline."
+
+#~ msgid "The address book does not exist."
+#~ msgstr "The address book does not exist."
+
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "The \"Me\" contact does not exist."
+
+#~ msgid "The address book is not loaded."
+#~ msgstr "The address book is not loaded."
+
+#~ msgid "The address book is already loaded."
+#~ msgstr "The address book is already loaded."
+
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "Permission was denied when accessing the address book."
+
+#~ msgid "The contact was not found."
+#~ msgstr "The contact was not found."
+
+#~ msgid "This contact ID already exists."
+#~ msgstr "This contact ID already exists."
+
+#~ msgid "The protocol is not supported."
+#~ msgstr "The protocol is not supported."
+
+#~ msgid "The operation was cancelled."
+#~ msgstr "The operation was cancelled."
+
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "The operation could not be cancelled."
+
+#~ msgid "The address book authentication failed."
+#~ msgstr "The address book authentication failed."
+
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr ""
+#~ "Authentication is required to access the address book and was not given."
+
+#~ msgid "A secure connection is not available."
+#~ msgstr "A secure connection is not available."
+
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "A CORBA error occurred whilst accessing the address book."
+
+#~ msgid "The address book source does not exist."
+#~ msgstr "The address book source does not exist."
+
+#~ msgid "An unknown error occurred."
+#~ msgstr "An unknown error occurred."
+
+#~ msgid "Unable to send file"
+#~ msgstr "Unable to send file"
+
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "There is no connection to gajim remote service."
+
+#~ msgid "Sending file failed"
+#~ msgstr "Sending file failed"
+
+#~ msgid "Recipient is missing."
+#~ msgstr "Recipient is missing."
+
+#~ msgid "Unknown recipient."
+#~ msgstr "Unknown recipient."
+
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Instant Message (Gajim)"
+
+#~ msgid "New CD/DVD"
+#~ msgstr "New CD/DVD"
+
+#~ msgid "Existing CD/DVD"
+#~ msgstr "Existing CD/DVD"
+
+#~ msgid "CD/DVD Creator"
+#~ msgstr "CD/DVD Creator"
+
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Instant Message (Pidgin)"
+
+#~ msgid "Removable disks and shares"
+#~ msgstr "Removable disks and shares"
+
+#~ msgid "Uploading '%s'"
+#~ msgstr "Uploading '%s'"
+
+#~ msgid "Preparing upload"
+#~ msgstr "Preparing upload"
+
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "Service '%s' is not configured."
+
+#~ msgid "_Configure"
+#~ msgstr "_Configure"
+
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "Logged in to service '%s'."
+
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "Could not log in to service '%s'."
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "UPnP Media Server"
+
+#~ msgid "Last plugin used to send"
+#~ msgstr "Last plugin used to send"
+
+#~ msgid "Last type of archive used"
+#~ msgstr "Last type of archive used"
+
+#~ msgid ""
+#~ "Used to store which plugin was used the last time files were sent using "
+#~ "nautilus-sendto."
+#~ msgstr ""
+#~ "Used to store which plugin was used the last time files were sent using "
+#~ "nautilus-sendto."
+
+#~ msgid ""
+#~ "Used to store which type of archive was used the last time (0: zip, 1: "
+#~ "tar.gz, 2: tar.bz2)."
+#~ msgstr ""
+#~ "Used to store which type of archive was used the last time (0: zip, 1: "
+#~ "tar.gz, 2: tar.bz2)."
+
+#~ msgid "_Send to..."
+#~ msgstr "_Send to…"
+
+#~ msgid "Send files to remote devices, or people"
+#~ msgstr "Send files to remote devices, or people"
+
+#~ msgid "Send to..."
+#~ msgstr "Send to…"
+
+#~ msgid "Send To..."
+#~ msgstr "Send To…"
+
+#~ msgid "Send file by mail, instant message..."
+#~ msgstr "Send file by mail, instant message…"
+
+#~ msgid "Send files by mail, instant message..."
+#~ msgstr "Send files by mail, instant message…"
+
+#~ msgid "Nautilus Sendto"
+#~ msgstr "Nautilus Sendto"
+
+#~ msgid "Could not load any plugins."
+#~ msgstr "Could not load any plugins."
+
+#~ msgid "Please verify your installation"
+#~ msgstr "Please verify your installation"
+
+#~ msgid "<b>Compression</b>"
+#~ msgstr "<b>Compression</b>"
+
+#~ msgid "<b>Destination</b>"
+#~ msgstr "<b>Destination</b>"
+
+#~ msgid "Send _as:"
+#~ msgstr "Send _as:"
+
+#~ msgid "Send t_o:"
+#~ msgstr "Send t_o:"
+
+#~ msgid "Programming error, could not find the device in the list"
+#~ msgstr "Programming error, could not find the device in the list"
+
+#~ msgid "Obex Push file transfer unsupported"
+#~ msgstr "Obex Push file transfer unsupported"
+
+#~ msgid "Bluetooth (OBEX Push)"
+#~ msgstr "Bluetooth (OBEX Push)"
+
+#~ msgid "The contact selected cannot receive files."
+#~ msgstr "The contact selected cannot receive files."
+
+#~ msgid "The contact selected is offline."
+#~ msgstr "The contact selected is offline."
+
+#~ msgid "No error message"
+#~ msgstr "No error message"
+
+#~ msgid "Instant Message (Empathy)"
+#~ msgstr "Instant Message (Empathy)"
+
+#~ msgid "Email"
+#~ msgstr "E-mail"
+
+#~ msgid "Nautilus Integration"
+#~ msgstr "Nautilus Integration"
+
+#~ msgid "Provides integration with Nautilus"
+#~ msgstr "Provides integration with Nautilus"
+
+#~ msgid "Default folder to use"
+#~ msgstr "Default folder to use"
+
+#~ msgid "You don't insert the package name"
+#~ msgstr "You don't insert the package name"
+
+#~ msgid "Email (Balsa)"
+#~ msgstr "Email (Balsa)"
+
+#~ msgid "Device does not support Obex File Transfer"
+#~ msgstr "Device does not support Obex File Transfer"
+
+#~ msgid "Email (Claws Mail)"
+#~ msgstr "Email (Claws Mail)"
+
+#~ msgid "Email (Thunderbird)"
+#~ msgstr "Email (Thunderbird)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid ""
+#~ ".zip\n"
+#~ ".tar.gz\n"
+#~ ".tar.bz2"
+#~ msgstr ""
+#~ ".zip\n"
+#~ ".tar.gz\n"
+#~ ".tar.bz2"
+
+#~ msgid "FOLDER"
+#~ msgstr "FOLDER"
+
+#~ msgid "Email (Sylpheed-Claws)"
+#~ msgstr "Email (Sylpheed-Claws)"
+
+#~ msgid "*"
+#~ msgstr "*"

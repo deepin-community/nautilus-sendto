@@ -1,0 +1,339 @@
+# translation of nautilus-sendto to Greek
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the nautilus-sendto package.
+# Kostas Papadimas <pkst@gnome.org>, 2004.
+# Athanasios Lefteris <alefteris@gmail.com>, 2007, 2008.
+# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: el\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-09-29 11:36+0000\n"
+"PO-Revision-Date: 2016-10-06 10:57+0300\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
+"Language-Team: team@gnome.gr\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Project-Style: gnome\n"
+
+#: ../src/nautilus-sendto.c:54
+msgid "Run from build directory (ignored)"
+msgstr "Εκτέλεση από τον κατάλογο δόμησης (αγνοήθηκε)"
+
+#: ../src/nautilus-sendto.c:55
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "Χρήση του XID ως γονικό για αποστολή διαλόγου (αγνοήθηκε)"
+
+#: ../src/nautilus-sendto.c:56
+msgid "Files to send"
+msgstr "Αρχεία προς αποστολή"
+
+#: ../src/nautilus-sendto.c:57
+msgid "Output version information and exit"
+msgstr "Προβολή πληροφοριών έκδοσης και έξοδος"
+
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:245
+msgid "Archive"
+msgstr "Αρχειοθήκη"
+
+#: ../src/nautilus-sendto.c:543
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+msgstr "Δεν μπορούν να αναλυθούν οι επιλογές γραμμής εντολών: %s\n"
+
+#: ../src/nautilus-sendto.c:556
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "Δεν έχει εγκατασταθεί πελάτης αλληλογραφίας, δεν στέλνονται αρχεία\n"
+
+#: ../src/nautilus-sendto.c:562
+#, c-format
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Αναμένει URI ή ονόματα αρχείων για να περασθούν ως επιλογές\n"
+
+#: ../src/nautilus-sendto.metainfo.xml.in.h:1
+#| msgid "Nautilus Sendto"
+msgid "Nautilus Send to"
+msgstr "Nautilus Send to"
+
+#: ../src/nautilus-sendto.metainfo.xml.in.h:2
+msgid "Integrates mail clients into the Nautilus file manager"
+msgstr "Ενσωματώση ηλεκτρονικής αλληλογραφίας στον διαχειριστή αρχείων Ναυτίλο"
+
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "Διαμοίραση του φακέλου %d"
+#~ msgstr[1] "Διαμοίραση των φακέλων %d"
+
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "Διαμοίραση των αρχείων και φακέλων %d"
+
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "Διαμοίραση του βίντεο %d"
+#~ msgstr[1] "Διαμοίραση των βίντεο %d"
+
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "Διαμοίραση της φωτογραφίας %d"
+#~ msgstr[1] "Διαμοίραση των φωτογραφιών %d"
+
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "Διαμοίραση της εικόνας %d"
+#~ msgstr[1] "Διαμοίραση των εικόνων %d"
+
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "Διαμοίραση του αρχείου κειμένου %d"
+#~ msgstr[1] "Διαμοίραση των αρχείων κειμένου %d"
+
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "Διαμοίραση του αρχείου %d"
+#~ msgstr[1] "Διαμοίραση των αρχείων %d"
+
+#~ msgid "_Send"
+#~ msgstr "Απο_στολή"
+
+#~ msgid "Files"
+#~ msgstr "Αρχεία"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Ακύρωση"
+
+#~ msgid "Send _packed in:"
+#~ msgstr "Αποστολή με _συμπίεση ως:"
+
+#~ msgid "Mail"
+#~ msgstr "Ηλεκτρονικό ταχυδρομείο"
+
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "Αδύνατη η λήψη της επαφής: %s"
+
+#~ msgid "Could not find contact: %s"
+#~ msgstr "Αδύνατη η εύρεση της επαφής: %s"
+
+#~ msgid "Cannot create searchable view."
+#~ msgstr "Αδύνατη η δημιουργία μιας αναζητήσιμης προβολής."
+
+#~ msgid "Success"
+#~ msgstr "Επιτυχία"
+
+#~ msgid "An argument was invalid."
+#~ msgstr "Κάποια παράμετρος ήταν μη έγκυρη."
+
+#~ msgid "The address book is busy."
+#~ msgstr "Το βιβλίο διευθύνσεων είναι απασχολημένο."
+
+#~ msgid "The address book is offline."
+#~ msgstr "Το βιβλίο διευθύνσεων είναι εκτός σύνδεσης."
+
+#~ msgid "The address book does not exist."
+#~ msgstr "Δεν υπάρχει βιβλίο διευθύνσεων."
+
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "Η επαφή \"Εγώ\" δεν υπάρχει."
+
+#~ msgid "The address book is not loaded."
+#~ msgstr "Το βιβλίο διευθύνσεων δεν έχει φορτωθεί."
+
+#~ msgid "The address book is already loaded."
+#~ msgstr "Το βιβλίο διευθύνσεων έχει ήδη φορτωθεί."
+
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "Δεν επιτράπηκε η πρόσβαση στο βιβλίο διευθύνσεων."
+
+#~ msgid "The contact was not found."
+#~ msgstr "Η επαφή δεν βρέθηκε."
+
+#~ msgid "This contact ID already exists."
+#~ msgstr "Αυτή η ταυτότητα επαφής υπάρχει ήδη."
+
+#~ msgid "The protocol is not supported."
+#~ msgstr "Το πρωτόκολλο δεν υποστηρίζεται."
+
+#~ msgid "The operation was cancelled."
+#~ msgstr "Η λειτουργία ακυρώθηκε."
+
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "Η λειτουργία δεν μπόρεσε να ακυρωθεί."
+
+#~ msgid "The address book authentication failed."
+#~ msgstr "Η ταυτοποίηση του βιβλίου διευθύνσεων απέτυχε."
+
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr ""
+#~ "Για την πρόσβαση στο βιβλίο διευθύνσεων απαιτείται ταυτοποίηση, η οποία "
+#~ "δεν δόθηκε."
+
+#~ msgid "A secure connection is not available."
+#~ msgstr "Δεν είναι διαθέσιμη μια ασφαλής σύνδεση."
+
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr ""
+#~ "Παρουσιάστηκε ένα σφάλμα CORBA κατά την πρόσβαση στο βιβλίο διευθύνσεων."
+
+#~ msgid "The address book source does not exist."
+#~ msgstr "Η πηγή του βιβλίου διευθύνσεων δεν υπάρχει."
+
+#~ msgid "An unknown error occurred."
+#~ msgstr "Παρουσιάστηκε ένα άγνωστο σφάλμα."
+
+#~ msgid "Unable to send file"
+#~ msgstr "Δεν είναι δυνατή η αποστολή του αρχείου"
+
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "Δεν υπάρχει σύνδεση με την απομακρυσμένη υπηρεσία gajim."
+
+#~ msgid "Sending file failed"
+#~ msgstr "Η αποστολή του αρχείου απέτυχε"
+
+#~ msgid "Recipient is missing."
+#~ msgstr "Ο παραλήπτης απουσιάζει."
+
+#~ msgid "Unknown recipient."
+#~ msgstr "Άγνωστος παραλήπτης."
+
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Άμεσο μήνυμα (Gajim)"
+
+#~ msgid "New CD/DVD"
+#~ msgstr "Νέο CD/DVD"
+
+#~ msgid "Existing CD/DVD"
+#~ msgstr "Υπάρχον CD/DVD"
+
+#~ msgid "CD/DVD Creator"
+#~ msgstr "Δημιουργός CD/DVD"
+
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Άμεσο μήνυμα (Pidgin)"
+
+#~ msgid "Removable disks and shares"
+#~ msgstr "Αφαιρούμενοι δίσκοι και κοινόχρηστοι φάκελοι"
+
+#~ msgid "Uploading '%s'"
+#~ msgstr "Αποστολή του '%s'"
+
+#~ msgid "Preparing upload"
+#~ msgstr "Γίνεται προετοιμασία για αποστολή"
+
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "Η υπηρεσία '%s' δεν έχει ρυθμιστεί."
+
+#~ msgid "_Configure"
+#~ msgstr "_Ρύθμιση"
+
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "Έγινε σύνδεση στην υπηρεσία '%s'."
+
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "Ήταν αδύνατη η σύνδεση στην υπηρεσία '%s'."
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "Εξυπηρετητής πολυμέσων UPnP"
+
+#~ msgid "Last plugin used to send"
+#~ msgstr "Τελευταίο πρόσθετο που χρησιμοποιήθηκε για αποστολή"
+
+#~ msgid "Last type of archive used"
+#~ msgstr "Τελευταίος τύπος συμπιεσμένου αρχείου που χρησιμοποιήθηκε"
+
+#~ msgid ""
+#~ "Used to store which plugin was used the last time files were sent using "
+#~ "nautilus-sendto."
+#~ msgstr ""
+#~ "Αποθηκεύει το πρόσθετο που χρησιμοποιήθηκε την τελευταία φορά που "
+#~ "εστάλησαν αρχεία χρησιμοποιώντας το nautilus-sendto."
+
+#~ msgid ""
+#~ "Used to store which type of archive was used the last time (0: zip, 1: "
+#~ "tar.gz, 2: tar.bz2)."
+#~ msgstr ""
+#~ "Αποθηκεύει τον τύπο συμπιεσμένου αρχείου που χρησιμοποιήθηκε την "
+#~ "τελευταία φορά (0: zip, 1: tar.gz, 2: tar.bz2)."
+
+#~ msgid "_Send to..."
+#~ msgstr "Α_ποστολή προς…"
+
+#~ msgid "Send files to remote devices, or people"
+#~ msgstr "Αποστολή των αρχείων σε απομακρυσμένες συσκευές ή σε ανθρώπους"
+
+#~ msgid "Send to..."
+#~ msgstr "Αποστολή προς…"
+
+#~ msgid "Send To..."
+#~ msgstr "Αποστολή προς…"
+
+#~ msgid "Send file by mail, instant message..."
+#~ msgstr "Αποστολή αρχείου μέσω ηλεκτρονικού ταχυδρομείου, άμεσου μηνύματος…"
+
+#~ msgid "Send files by mail, instant message..."
+#~ msgstr "Αποστολή αρχείων μέσω ηλεκτρονικού ταχυδρομείου, άμεσου μηνύματος…"
+
+#~ msgid "Could not load any plugins."
+#~ msgstr "Δεν είναι δυνατή η φόρτωση των προσθέτων."
+
+#~ msgid "Please verify your installation"
+#~ msgstr "Παρακαλώ ελέγξτε την εγκατάσταση σας"
+
+#~ msgid "<b>Compression</b>"
+#~ msgstr "<b>Συμπίεση</b>"
+
+#~ msgid "<b>Destination</b>"
+#~ msgstr "<b>Προορισμός</b>"
+
+#~ msgid "Send _as:"
+#~ msgstr "Αποστολή _ως:"
+
+#~ msgid "Send t_o:"
+#~ msgstr "Αποστολή _προς:"
+
+#~ msgid "Programming error, could not find the device in the list"
+#~ msgstr ""
+#~ "Προγραμματιστικό σφάλμα, δεν είναι δυνατή η εύρεση της συσκευής στην λίστα"
+
+#~ msgid "Obex Push file transfer unsupported"
+#~ msgstr "Δεν υποστηρίζεται η μεταφορά αρχείων με Obex Push"
+
+#~ msgid "Bluetooth (OBEX Push)"
+#~ msgstr "Bluetooth (OBEX Push)"
+
+#~ msgid "The contact selected cannot receive files."
+#~ msgstr "Η επαφή που επιλέχτηκε δεν μπορεί να παραλάβει αρχεία."
+
+#~ msgid "The contact selected is offline."
+#~ msgstr "Η επιλεγμένη επαφή είναι εκτός σύνδεσης."
+
+#~ msgid "No error message"
+#~ msgstr "Κανένα μήνυμα λάθους"
+
+#~ msgid "Instant Message (Empathy)"
+#~ msgstr "Άμεσο μήνυμα (Empathy)"
+
+#~ msgid "Nautilus Integration"
+#~ msgstr "Ενσωμάτωση Ναυτίλου"
+
+#~ msgid "Provides integration with Nautilus"
+#~ msgstr "Παρέχει ενσωμάτωση με το Ναυτίλο"
+
+#~ msgid "Default folder to use"
+#~ msgstr "Προεπιλεγμένος φάκελος για χρήση"
+
+#~ msgid "Email (Balsa)"
+#~ msgstr "Ηλεκτρονικό ταχυδρομείο (Balsa)"
+
+#~ msgid "Email (Claws Mail)"
+#~ msgstr "Ηλεκτρονικό ταχυδρομείο (Claws Mail)"
+
+#~ msgid "Email (Thunderbird)"
+#~ msgstr "Ηλεκτρονικό ταχυδρομείο (Thunderbird)"

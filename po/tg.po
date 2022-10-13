@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tajik Gnome\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-07-31 08:56+0000\n"
+"PO-Revision-Date: 2013-10-04 13:42+0500\n"
+"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+"Language-Team: \n"
+"Language: tg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
+msgstr "Иҷро кардан аз директорияи сохтор (радшуда)"
+
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "Истифодаи XID ҳамчун асосӣ барои диалоги равона (радшуда)"
+
+#: ../src/nautilus-sendto.c:55
+msgid "Files to send"
+msgstr "Файлҳо барои фиристониш"
+
+#: ../src/nautilus-sendto.c:56
+msgid "Output version information and exit"
+msgstr "Намоиш додани иттилооти версия ва ҳориҷ шудан"
+
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:244
+msgid "Archive"
+msgstr "Бойгонӣ"
+
+#: ../src/nautilus-sendto.c:511
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+msgstr "Имконоти хати фармон таҷзия карда намешаванд: %s\n"
+
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "Ягон муштарии почтавӣ насб нашудааст ва файлҳоро фиристода нашудааст\n"
+
+#: ../src/nautilus-sendto.c:530
+#, c-format
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr ""
+"Дар ҳоли интизори суроғаҳо ё номҳои файлҳо барои гузариш чун имконият\n"
+
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "Мубодилакунии %d ҷузвдон"
+#~ msgstr[1] "Мубодилакунии %d ҷузвдон"
+
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "Мубодилакунии %d ҷузвдон ва файлҳо"
+
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "Мубодилакунии %d видео"
+#~ msgstr[1] "Мубодилакунии %d видео"
+
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "Мубодилакунии %d сурат"
+#~ msgstr[1] "Мубодилакунии %d сурат"
+
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "Мубодилакунии %d тасвир"
+#~ msgstr[1] "Мубодилакунии %d тасвир"
+
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "Мубодилакунии %d файли матнӣ"
+#~ msgstr[1] "Мубодилакунии %d файли матнӣ"
+
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "Мубодилакунии %d файл"
+#~ msgstr[1] "Мубодилакунии %d файл"
+
+#~ msgid "_Send"
+#~ msgstr "_Фиристодан"
+
+#~ msgid "Files"
+#~ msgstr "Файлҳо"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Бекор кардан"
+
+#~ msgid "Mail"
+#~ msgstr "Почта"
+
+#~ msgid "Could not find contact: %s"
+#~ msgstr "Тамос ёфт нашуд: %s"
+
+#~ msgid "Success"
+#~ msgstr "Анҷоми бомуваффақият"
+
+#~ msgid "The address book is busy."
+#~ msgstr "Китоби суроғаҳо машғул аст."
+
+#~ msgid "The address book is offline."
+#~ msgstr "Китоби суроғаҳо дар офлайн мебошад."
+
+#~ msgid "The address book does not exist."
+#~ msgstr "Китоби суроғаҳо вуҷуд надорад."
+
+#~ msgid "The address book is not loaded."
+#~ msgstr "Китоби суроғаҳо бор нашудааст."
+
+#~ msgid "The address book is already loaded."
+#~ msgstr "Китоби суроғаҳо аллакай бор шудааст."
+
+#~ msgid "The contact was not found."
+#~ msgstr "Тамос ёфт нашуд."
+
+#~ msgid "The operation was cancelled."
+#~ msgstr "Амалиёт бекор карда шуд."
+
+#~ msgid "An unknown error occurred."
+#~ msgstr "Хатогии номаълум ба вуҷуд омад."
+
+#~ msgid "Unable to send file"
+#~ msgstr "Фиристодани файл имконпазир нест"
+
+#~ msgid "Sending file failed"
+#~ msgstr "Фиристодани файл қатъ шудааст"
+
+#~ msgid "Unknown recipient."
+#~ msgstr "Қабулкунандаи номаълум."
+
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Паёми фаврӣ (Gajim)"
+
+#~ msgid "New CD/DVD"
+#~ msgstr "CD/DVD-и нав"
+
+#~ msgid "Existing CD/DVD"
+#~ msgstr "CD/DVD-и мавҷудбуда"
+
+#~ msgid "CD/DVD Creator"
+#~ msgstr "Эҷодкунандаи CD/DVD"
+
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Паёми фаврӣ (Pidgin)"
+
+#~ msgid "Uploading '%s'"
+#~ msgstr "Боркунии '%s'"
+
+#~ msgid "_Configure"
+#~ msgstr "_Конфигуратсия кардан"
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "Сервери медиаи UPnP"

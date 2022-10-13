@@ -1,0 +1,303 @@
+# translation of nautilus-sendto.HEAD.ar.po to Arabic
+# Arabic translations for PACKAGE package.
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2006.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2009, 2011, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-sendto.HEAD.ar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-23 22:43+0200\n"
+"PO-Revision-Date: 2015-09-23 22:45+0200\n"
+"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Poedit-Language: Arabic\n"
+
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
+msgstr "شغّل من دليل البناء (مُتجاهل)"
+
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr ""
+
+#: ../src/nautilus-sendto.c:55
+msgid "Files to send"
+msgstr "الملفات التي ستُرسل"
+
+#: ../src/nautilus-sendto.c:56
+msgid "Output version information and exit"
+msgstr ""
+
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:244
+msgid "Archive"
+msgstr "أرشيف"
+
+#: ../src/nautilus-sendto.c:507
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+msgstr "تعذّر تحليل خيارات سطر الأوامر: %s\n"
+
+#: ../src/nautilus-sendto.c:520
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "لا يوجد أي عميل بريد مثبت، لن تُرسل أي ملفات\n"
+
+#: ../src/nautilus-sendto.c:526
+#, c-format
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "يتوقّع أن تمرر المسارات (URI) أو العناوين كخيارات\n"
+
+#~ msgid "_Send"
+#~ msgstr "أر_سل"
+
+#~ msgid "Files"
+#~ msgstr "ملفات"
+
+#~ msgid "_Cancel"
+#~ msgstr "أ_لغِ"
+
+#~ msgid "Send _packed in:"
+#~ msgstr "أرسٍل _محزّما في:"
+
+#~ msgid "Mail"
+#~ msgstr "البريد"
+
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "تعذّر جلب المتراسل: %s"
+
+#~ msgid "Could not find contact: %s"
+#~ msgstr "تعذّر العثور على المتراسل: %s"
+
+#~ msgid "Cannot create searchable view."
+#~ msgstr "تعذّر إنشاء منظور يمكن البحث به."
+
+#~ msgid "Success"
+#~ msgstr "نجح"
+
+#~ msgid "An argument was invalid."
+#~ msgstr "المعطى غير سليم."
+
+#~ msgid "The address book is busy."
+#~ msgstr "دفتر العناوين مشغول."
+
+#~ msgid "The address book is offline."
+#~ msgstr "دفتر العناوين غير متّصل."
+
+#~ msgid "The address book does not exist."
+#~ msgstr "دفتر العناوين غير موجود."
+
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "المتراسل لا وجود له."
+
+#~ msgid "The address book is not loaded."
+#~ msgstr "دفتر العناوين غير مُحمّل."
+
+#~ msgid "The address book is already loaded."
+#~ msgstr "دفتر العناوين مُحمّل فعلا."
+
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "مُنِع الإذن أثناء محاولة الوصول إلى دفتر العناوين."
+
+#~ msgid "The contact was not found."
+#~ msgstr "لم يُعثر على المُتراسل."
+
+#~ msgid "This contact ID already exists."
+#~ msgstr "لا وجود لمعرّف المتراسل."
+
+#~ msgid "The protocol is not supported."
+#~ msgstr "البروتوكول غير مدعوم."
+
+#~ msgid "The operation was cancelled."
+#~ msgstr "أُلغيت العملية."
+
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "تعذّر إلغاء العملية."
+
+#~ msgid "The address book authentication failed."
+#~ msgstr "فشل استيثاق دفتر العناوين."
+
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr "الاستيثاق مطلوب للوصل إلى دفتر العناوين لكنه لم يُعطَ."
+
+#~ msgid "A secure connection is not available."
+#~ msgstr "لا يتوفر اتصال آمن."
+
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "حدث خطأ CORBA أثناء محاولة الوصول إلى دفتر العناوين."
+
+#~ msgid "The address book source does not exist."
+#~ msgstr "لا وجود لمصدر دفتر العناوين."
+
+#~ msgid "An unknown error occurred."
+#~ msgstr "حدث خطأ مجهول."
+
+#~ msgid "Unable to send file"
+#~ msgstr "تعذّر إرسال الملف"
+
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "لا يوجد اتصال مع خدمة gajim عن بعد."
+
+#~ msgid "Sending file failed"
+#~ msgstr "فشل إرسال الملف"
+
+#~ msgid "Recipient is missing."
+#~ msgstr "المتلقّي مفقود."
+
+#~ msgid "Unknown recipient."
+#~ msgstr "متلقّي مجهول."
+
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "رسالة فورية (Gajim)"
+
+#~ msgid "New CD/DVD"
+#~ msgstr "اسطوانة\\دي‌ڤي‌دي جديد"
+
+#~ msgid "Existing CD/DVD"
+#~ msgstr "اسطوانة\\دي‌ڤي‌دي موجود"
+
+#~ msgid "CD/DVD Creator"
+#~ msgstr "منشئ اسطوانات/دي‌ڤي‌دي"
+
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "رسالة فورية (بِدْجِن)"
+
+#~ msgid "Removable disks and shares"
+#~ msgstr "الأقراص المنفصلة والمشاركات"
+
+#~ msgid "_Configure"
+#~ msgstr "ا_ضبط"
+
+#, fuzzy
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "تعذّر العثور على المتراسل: %s"
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "خادوم وسائط UPnP"
+
+#~ msgid "Last plugin used to send"
+#~ msgstr "آخر مُلحق استُخدِم للإرسال"
+
+#~ msgid "Last type of archive used"
+#~ msgstr "آخر نوع أرشيف استُخدِم"
+
+#~ msgid ""
+#~ "Used to store which plugin was used the last time files were sent using "
+#~ "nautilus-sendto."
+#~ msgstr ""
+#~ "يُستخدم لتخزين ماهو المُلحق الذي استُخدِم آخر مرة اُرسِلت ملفات باستخدام أرسل "
+#~ "إلى-ناوتلس"
+
+#~ msgid ""
+#~ "Used to store which type of archive was used the last time (0: zip, 1: "
+#~ "tar.gz, 2: tar.bz2)."
+#~ msgstr ""
+#~ "يُستخدم لتخزين ما نوع الأرشيف المُستخدم آخر مرة (0: zip, 1: tar.gz, 2: tar."
+#~ "bz2)."
+
+#~ msgid "_Send to..."
+#~ msgstr "أرسل إ_لى..."
+
+#~ msgid "Send files to remote devices, or people"
+#~ msgstr "أرسل الملفات إلى أجهزة بعيدة، أو إلى الآخرين"
+
+#~ msgid "Send to..."
+#~ msgstr "أرسل إلى..."
+
+#~ msgid "Send To..."
+#~ msgstr "أرسل إلى..."
+
+#~ msgid "Send file by mail, instant message..."
+#~ msgstr "أرسل الملف بالبريد، رسالة فورية..."
+
+#~ msgid "Send files by mail, instant message..."
+#~ msgstr "أرسل الملفات بالبريد، رسالة فورية..."
+
+#~ msgid "Nautilus Sendto"
+#~ msgstr "أرسل إلى - نوتلِس"
+
+#~ msgid "Could not load any plugins."
+#~ msgstr "تعذّر تحميل أية ملحقات."
+
+#~ msgid "Please verify your installation"
+#~ msgstr "رجاء راجع تثبيتك"
+
+#~ msgid "<b>Compression</b>"
+#~ msgstr "<b>الضغط</b>"
+
+#~ msgid "<b>Destination</b>"
+#~ msgstr "<b>الوِجهة</b>"
+
+#~ msgid "Send _as:"
+#~ msgstr "أرسِل _ك‍:"
+
+#~ msgid "Send t_o:"
+#~ msgstr "أرسِل إ_لى:"
+
+#~ msgid "Programming error, could not find the device in the list"
+#~ msgstr "خطأ برمجي، لم أتمكن من العثور على جهاز في القائمة"
+
+#~ msgid "Obex Push file transfer unsupported"
+#~ msgstr "نقل ملفات Obex Push مدعوم"
+
+#~ msgid "Bluetooth (OBEX Push)"
+#~ msgstr "بلوتوث (OBEX Push)"
+
+#~ msgid "The contact selected cannot receive files."
+#~ msgstr "المُتراسل المحدد لا يستطيع استقبال ملفات."
+
+#~ msgid "The contact selected is offline."
+#~ msgstr "المتراسل المحدد غير متّصل."
+
+#~ msgid "No error message"
+#~ msgstr "لا رسالة خطأ"
+
+#~ msgid "Instant Message (Empathy)"
+#~ msgstr "رسالة فورية (إمبَثي)"
+
+#~ msgid "Nautilus Integration"
+#~ msgstr "التكامل مع نوتلس"
+
+#~ msgid "Provides integration with Nautilus"
+#~ msgstr "توفّر تكامل مع نوتلس"
+
+#~ msgid "Default folder to use"
+#~ msgstr "المجلد الإفتراضي ليستخدم"
+
+#~ msgid "Email (Balsa)"
+#~ msgstr "بريد إلكتروني (Balsa)"
+
+#~ msgid "Device does not support Obex File Transfer"
+#~ msgstr "لا يدعم الجهاز Obex File Transfer"
+
+#~ msgid "Email (Claws Mail)"
+#~ msgstr "بريد إلكتروني (Claws Mail)"
+
+#~ msgid "Email (Thunderbird)"
+#~ msgstr "بريد إلكتروني (ثندربيرد)"
+
+#~ msgid "You don't insert the package name"
+#~ msgstr "لم تدخِل اسم الحزمة"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid ""
+#~ ".zip\n"
+#~ ".tar.gz\n"
+#~ ".tar.bz2"
+#~ msgstr ""
+#~ ".zip\n"
+#~ ".tar.gz\n"
+#~ ".tar.bz2"

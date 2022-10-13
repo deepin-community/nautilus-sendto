@@ -1,0 +1,36 @@
+From 0657659b86f683c03f9db4bd36acdae4e2e2f27e Mon Sep 17 00:00:00 2001
+From: Sebastien Bacher <seb128@ubuntu.com>
+Date: Mon, 23 Nov 2020 20:24:59 +0100
+Subject: [PATCH] Remove old workaround for thunderbird
+
+It's not needed anymore and creates issues in some cases
+
+https://gitlab.gnome.org/Archive/nautilus-sendto/-/merge_requests/5
+---
+ src/nautilus-sendto.c | 9 ---------
+ 1 file changed, 9 deletions(-)
+
+diff --git a/src/nautilus-sendto.c b/src/nautilus-sendto.c
+index 52d2b89..9154e09 100644
+--- a/src/nautilus-sendto.c
++++ b/src/nautilus-sendto.c
+@@ -98,16 +98,7 @@ init_mailer (NautilusSendto *nst)
+ 		if (strstr (nst->mail_cmd, "balsa"))
+ 			nst->type = MAILER_BALSA;
+ 		else if (strstr (nst->mail_cmd, "thunder") || strstr (nst->mail_cmd, "seamonkey") || strstr (nst->mail_cmd, "icedove")) {
+-			char **strv;
+-
+ 			nst->type = MAILER_THUNDERBIRD;
+-
+-			/* Thunderbird sucks, see
+-			 * https://bugzilla.gnome.org/show_bug.cgi?id=614222 */
+-			strv = g_strsplit (nst->mail_cmd, " ", -1);
+-			g_free (nst->mail_cmd);
+-			nst->mail_cmd = g_strdup_printf ("%s %%s", strv[0]);
+-			g_strfreev (strv);
+ 		} else if (strstr (nst->mail_cmd, "sylpheed") || strstr (nst->mail_cmd, "claws"))
+ 			nst->type = MAILER_SYLPHEED;
+ 		else if (strstr (nst->mail_cmd, "anjal"))
+-- 
+2.25.1
+

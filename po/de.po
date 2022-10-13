@@ -1,0 +1,75 @@
+# German translation of Nautilus Sendto.
+# Copyright (C) 2004 Roberto Majadas <roberto.majadas@hispalinux.es>
+# This file is distributed under the same license as the Nautilus Sendto package.
+# Frank Arnold <frank@scirocco-5v-turbo.de>, 2004-2008.
+# Gerhard Stein <gerstrong@gmail.com>, 2008.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2008-2013, 2016.
+# Lukas K. <lu@0x83.eu>, 2010.
+# Christian Kirbach <Christian.Kirbach@googelmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-sendto master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-09-29 11:36+0000\n"
+"PO-Revision-Date: 2016-09-29 14:57+0200\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
+"Language-Team: Deutsch <gnome-de@gnome.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 1.8.9\n"
+
+#: ../src/nautilus-sendto.c:54
+msgid "Run from build directory (ignored)"
+msgstr "Aus dem Erstellungsordner ausführen (ignoriert)"
+
+#: ../src/nautilus-sendto.c:55
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "XID als Eltern für den Sendedialog verwenden (ignoriert)"
+
+#: ../src/nautilus-sendto.c:56
+msgid "Files to send"
+msgstr "Zu sendende Dateien"
+
+#: ../src/nautilus-sendto.c:57
+msgid "Output version information and exit"
+msgstr "Versionsinformationen ausgeben und beenden"
+
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:245
+msgid "Archive"
+msgstr "Archiv"
+
+#: ../src/nautilus-sendto.c:543
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+""
+msgstr "Befehlszeilenoptionen konnten nicht eingelesen werden: %s\n"
+""
+
+#: ../src/nautilus-sendto.c:556
+#, c-format
+msgid "No mail client installed, not sending files\n"
+""
+msgstr "Es ist kein E-Mail-Programm installiert. Dateien werden nicht verschickt\n"
+""
+
+#: ../src/nautilus-sendto.c:562
+#, c-format
+msgid "Expects URIs or filenames to be passed as options\n"
+""
+msgstr "URLs oder Dateinamen sollten als Optionen gesetzt werden\n"
+""
+
+#: ../src/nautilus-sendto.metainfo.xml.in.h:1
+msgid "Nautilus Send to"
+msgstr "Nautilus Senden an"
+
+#: ../src/nautilus-sendto.metainfo.xml.in.h:2
+msgid "Integrates mail clients into the Nautilus file manager"
+msgstr "Integriert E-Mail-Anwendungen in die Dateiverwaltung Nautilus"
+

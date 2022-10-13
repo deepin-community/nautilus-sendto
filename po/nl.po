@@ -1,0 +1,340 @@
+# Dutch translation for nautilus-sendto
+#
+# This file is distributed under the same license as the nautilus-sendto package.
+#
+#
+# Reinout van Schouwen <reinout@cs.vu.nl>, 2004–2005.
+# Wouter Bolsterlee <wbolster@gnome.org>, 2006–2012.
+# Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2016.
+# Nathan Follens <nthn@unseen.is>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-sendto\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-02-29 17:19+0000\n"
+"PO-Revision-Date: 2016-03-04 10:34+0100\n"
+"Last-Translator: Hannie Dumoleyn <hannie@ubuntu-nl.org>\n"
+"Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: ../src/nautilus-sendto.c:54
+msgid "Run from build directory (ignored)"
+msgstr "Uitvoeren vanuit build-map (genegeerd)"
+
+#: ../src/nautilus-sendto.c:55
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "XID als ouder gebruiken voor het verzenden-dialoogvenster (genegeerd)"
+
+#: ../src/nautilus-sendto.c:56
+msgid "Files to send"
+msgstr "Te verzenden bestanden"
+
+#: ../src/nautilus-sendto.c:57
+msgid "Output version information and exit"
+msgstr "Versie-informatie tonen en afsluiten"
+
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:245
+msgid "Archive"
+msgstr "Archief"
+
+#: ../src/nautilus-sendto.c:540
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+msgstr "Verwerken van opdrachtregelparameters mislukt: %s\n"
+
+#: ../src/nautilus-sendto.c:553
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "Geen e-mailcliënt geïnstalleerd, bestanden worden niet verzonden\n"
+
+#: ../src/nautilus-sendto.c:559
+#, c-format
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Verwacht URI's of bestandsnamen die als opties meegegeven worden\n"
+
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "%d map delen"
+#~ msgstr[1] "%d mappen delen"
+
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "%d bestanden en mappen delen"
+
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "%d video delen"
+#~ msgstr[1] "%d video's delen"
+
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "%d foto delen"
+#~ msgstr[1] "%d foto's delen"
+
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "%d afbeelding delen"
+#~ msgstr[1] "%d afbeeldingen delen"
+
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "%d tekstbestand delen"
+#~ msgstr[1] "%d tekstbestanden delen"
+
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "%d bestand delen"
+#~ msgstr[1] "%d bestanden delen"
+
+#~ msgid "_Send"
+#~ msgstr "Ver_sturen"
+
+#~ msgid "Files"
+#~ msgstr "Bestanden"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Annuleren"
+
+#~ msgid "Send _packed in:"
+#~ msgstr "Versturen ver_pakt in"
+
+#~ msgid "Mail"
+#~ msgstr "E-mail"
+
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "Kan contact niet opvragen: %s"
+
+#~ msgid "Could not find contact: %s"
+#~ msgstr "Kan contact niet vinden: %s"
+
+#~ msgid "Cannot create searchable view."
+#~ msgstr "Kan geen doorzoekbare weergave krijgen."
+
+#~ msgid "Success"
+#~ msgstr "Succesvol"
+
+#~ msgid "An argument was invalid."
+#~ msgstr "Een parameter was ongeldig."
+
+#~ msgid "The address book is busy."
+#~ msgstr "Het adresboek is bezig."
+
+#~ msgid "The address book is offline."
+#~ msgstr "Het adresboek is offline."
+
+#~ msgid "The address book does not exist."
+#~ msgstr "Het adresboek bestaat niet."
+
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "Het ‘Ik’-contact bestaat niet."
+
+#~ msgid "The address book is not loaded."
+#~ msgstr "Het adresboek is niet geladen."
+
+#~ msgid "The address book is already loaded."
+#~ msgstr "Het adresboek is reeds geladen."
+
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "Toegang tot adresboek geweigerd."
+
+#~ msgid "The contact was not found."
+#~ msgstr "Het contact kon niet gevonden worden."
+
+#~ msgid "This contact ID already exists."
+#~ msgstr "Dit contact-ID bestaat al."
+
+#~ msgid "The protocol is not supported."
+#~ msgstr "Het protocol wordt niet ondersteund."
+
+#~ msgid "The operation was cancelled."
+#~ msgstr "De bewerking is geannuleerd."
+
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "De bewerking kon niet geannuleerd worden."
+
+#~ msgid "The address book authentication failed."
+#~ msgstr "Aanmelden voor adresboek is mislukt."
+
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr "Het adresboek vereist aanmeldgegevens, maar deze zijn niet gegeven."
+
+#~ msgid "A secure connection is not available."
+#~ msgstr "Een beveiligde verbinding is niet beschikbaar."
+
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "Een CORBA-fout is opgetreden tijdens het gebruik van het adresboek."
+
+#~ msgid "The address book source does not exist."
+#~ msgstr "De adresboek-bron bestaat niet."
+
+#~ msgid "An unknown error occurred."
+#~ msgstr "Een onbekende fout is opgetreden."
+
+#~ msgid "Unable to send file"
+#~ msgstr "Kon bestand niet verzenden"
+
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "Er is geen verbinding met de gajim remote-service"
+
+#~ msgid "Sending file failed"
+#~ msgstr "Verzenden van bestand mislukt"
+
+#~ msgid "Recipient is missing."
+#~ msgstr "Geadresseerde ontbreekt."
+
+#~ msgid "Unknown recipient."
+#~ msgstr "Onbekende geadresseerde"
+
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Direct bericht (Gajim)"
+
+#~ msgid "New CD/DVD"
+#~ msgstr "Nieuwe cd/dvd"
+
+#~ msgid "Existing CD/DVD"
+#~ msgstr "Bestaande cd/dvd"
+
+#~ msgid "CD/DVD Creator"
+#~ msgstr "Cd/dvd-maker"
+
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Direct bericht (Pidgin)"
+
+#~ msgid "Removable disks and shares"
+#~ msgstr "Verwijderbare (gedeelde) schijven"
+
+#~ msgid "Uploading '%s'"
+#~ msgstr "‘%s’ uploaden"
+
+#~ msgid "Preparing upload"
+#~ msgstr "Upload voorbereiden"
+
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "Service ‘%s’ is niet geconfigureerd."
+
+#~ msgid "_Configure"
+#~ msgstr "_Configureren"
+
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "Ingelogd bij service ‘%s’."
+
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "Kon niet inloggne bij service ‘%s’."
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "UPnP-mediaserver"
+
+#~ msgid "Last plugin used to send"
+#~ msgstr "Meest recent gebruikte plugin voor verzenden"
+
+#~ msgid "Last type of archive used"
+#~ msgstr "Meest recent gebruikte archieftype"
+
+#~ msgid ""
+#~ "Used to store which plugin was used the last time files were sent using "
+#~ "nautilus-sendto."
+#~ msgstr ""
+#~ "Geeft aan welke plugin het meest recent is gebruikt voor het verzenden "
+#~ "van bestanden met nautilus-sendto."
+
+#~ msgid ""
+#~ "Used to store which type of archive was used the last time (0: zip, 1: "
+#~ "tar.gz, 2: tar.bz2)."
+#~ msgstr ""
+#~ "Geeft aan welk archieftype voor het meest recent is gebruikt (0: zip, 1: "
+#~ "tar.gz, 2: tar.bz2)."
+
+#~ msgid "_Send to..."
+#~ msgstr "_Sturen naar…"
+
+#~ msgid "Send files to remote devices, or people"
+#~ msgstr "Bestanden naar apparaten of mensen sturen"
+
+#~ msgid "Send to..."
+#~ msgstr "Sturen naar…"
+
+#~ msgid "Send To..."
+#~ msgstr "Sturen naar…"
+
+#~ msgid "Send file by mail, instant message..."
+#~ msgstr "Bestand versturen per e-mail, direct bericht…"
+
+#~ msgid "Send files by mail, instant message..."
+#~ msgstr "Bestanden versturen per e-mail, direct bericht…"
+
+#~ msgid "Could not load any plugins."
+#~ msgstr "Kon geen plugins laden."
+
+#~ msgid "Please verify your installation"
+#~ msgstr "Controleer de installatie"
+
+#~ msgid "<b>Compression</b>"
+#~ msgstr "<b>Compressie</b>"
+
+#~ msgid "<b>Destination</b>"
+#~ msgstr "<b>Bestemming</b>"
+
+#~ msgid "Send _as:"
+#~ msgstr "Versturen _als:"
+
+#~ msgid "Send t_o:"
+#~ msgstr "Versturen _naar:"
+
+#~ msgid "Programming error, could not find the device in the list"
+#~ msgstr "Programmeerfout, kon apparaat niet in lijst vinden."
+
+#~ msgid "Obex Push file transfer unsupported"
+#~ msgstr "Obex-push-bestandsoverdracht wordt niet ondersteund"
+
+#~ msgid "Bluetooth (OBEX Push)"
+#~ msgstr "Bluetooth (OBEX Push)"
+
+#~ msgid "The contact selected cannot receive files."
+#~ msgstr "Het geselecteerde contact kan geen bestanden ontvangen."
+
+#~ msgid "The contact selected is offline."
+#~ msgstr "Het geselecteerde contact is offline."
+
+#~ msgid "No error message"
+#~ msgstr "Geen foutmelding"
+
+#~ msgid "Instant Message (Empathy)"
+#~ msgstr "Direct bericht (Empathy)"
+
+#~ msgid "Email"
+#~ msgstr "E-mail"
+
+#~ msgid "Nautilus Integration"
+#~ msgstr "Nautilus-integratie"
+
+#~ msgid "Provides integration with Nautilus"
+#~ msgstr "Voorziet in integratie met Nautilus"
+
+#~ msgid "Default folder to use"
+#~ msgstr "Standaardmap"
+
+#~ msgid "You don't insert the package name"
+#~ msgstr "U heeft de pakketnaam niet ingevoerd"
+
+#~ msgid "Nautilus Sendto"
+#~ msgstr "Nautilus Sendto"
+
+#~ msgid "Email (Balsa)"
+#~ msgstr "E-mail (Balsa)"
+
+#~ msgid "Device does not support Obex File Transfer"
+#~ msgstr "Apparaat ondersteunt geen Obex-bestandsoverdracht"
+
+#~ msgid "Email (Claws Mail)"
+#~ msgstr "E-mail (Claws-mail)"
+
+#~ msgid "Email (Thunderbird)"
+#~ msgstr "E-mail (Thunderbird)"

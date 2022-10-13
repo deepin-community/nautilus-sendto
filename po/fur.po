@@ -1,0 +1,207 @@
+# Friulian translation for nautilus-sendto.
+# Copyright (C) 2012 nautilus-sendto's COPYRIGHT HOLDER
+# This file is distributed under the same license as the nautilus-sendto package.
+# TmTFx <f.t.public@gmail.com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-sendto gnome-3-6\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2016-09-30 10:56+0000\n"
+"PO-Revision-Date: 2016-10-17 12:56+0200\n"
+"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
+"Language-Team: Friulian <fur@li.org>\n"
+"Language: fur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../src/nautilus-sendto.c:54
+msgid "Run from build directory (ignored)"
+msgstr "Fâs partî de cartele di compilazion (ignorât)"
+
+#: ../src/nautilus-sendto.c:55
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "Dopre XID come pari par il dialic di inviament (ignorât)"
+
+#: ../src/nautilus-sendto.c:56
+msgid "Files to send"
+msgstr "File di inviâ"
+
+#: ../src/nautilus-sendto.c:57
+msgid "Output version information and exit"
+msgstr "Mostre informazion di version e jes"
+
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:245
+msgid "Archive"
+msgstr "Archivi"
+
+#: ../src/nautilus-sendto.c:543
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+msgstr "Impussibil analizâ lis opzions de rie di comant: %s\n"
+
+#: ../src/nautilus-sendto.c:556
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "Nissun client mail instalât, nissun inviament di file\n"
+
+#: ../src/nautilus-sendto.c:562
+#, c-format
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Si spiete che si passin come opzions dai URI o nons di file\n"
+
+#: ../src/nautilus-sendto.metainfo.xml.in.h:1
+msgid "Nautilus Send to"
+msgstr "Nautilus Invie a"
+
+#: ../src/nautilus-sendto.metainfo.xml.in.h:2
+msgid "Integrates mail clients into the Nautilus file manager"
+msgstr "Al integre i client e-mail intal gjestôr di file Nautilus"
+
+#~ msgid "Send To..."
+#~ msgstr "Invie A..."
+
+#~ msgid "Send file by mail, instant message..."
+#~ msgstr "Invie il file par mail, mesaç istantani..."
+
+#~ msgid "Send files by mail, instant message..."
+#~ msgstr "Invie i file par mail, mesaç istantani..."
+
+#~ msgid "Files"
+#~ msgstr "File"
+
+#~ msgid "Could not load any plugins."
+#~ msgstr "No puès cjarià nissun plugin."
+
+#~ msgid "Please verify your installation"
+#~ msgstr "Par plasê verifiche la tô installazion"
+
+#~ msgid "_Send"
+#~ msgstr "_Invie"
+
+#~ msgid "<b>Destination</b>"
+#~ msgstr "<b>Destinazion</b>"
+
+#~ msgid "Send _as:"
+#~ msgstr "Invie _come:"
+
+#~ msgid "Send t_o:"
+#~ msgstr "Invie _a:"
+
+#~ msgid "<b>Compression</b>"
+#~ msgstr "<b>Compression</b>"
+
+#~ msgid "Send _packed in:"
+#~ msgstr "Invie a_rchiviât in:"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "Impussibil vê il contat: %s"
+
+#~ msgid "Could not find contact: %s"
+#~ msgstr "No puès cjatâ il contat: %s"
+
+#~ msgid "Cannot create searchable view."
+#~ msgstr "Impussibil creâ la viodude par la ricerche."
+
+#~ msgid "Success"
+#~ msgstr "Sucès"
+
+#~ msgid "An argument was invalid."
+#~ msgstr "Un argument a no'l jere valit."
+
+#~ msgid "The address book is busy."
+#~ msgstr "La rubriche a jè ocupade."
+
+#~ msgid "The address book is offline."
+#~ msgstr "La rubriche a jè offline."
+
+#~ msgid "The address book does not exist."
+#~ msgstr "La rubriche no esist."
+
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "Il contat \"Me\" no'l esist."
+
+#~ msgid "The address book is not loaded."
+#~ msgstr "Le rubriche no jè cjamade."
+
+#~ msgid "The address book is already loaded."
+#~ msgstr "Le rubriche a jè giaromai cjamade."
+
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "A le stât neât il permès di acedi ae rubriche."
+
+#~ msgid "The contact was not found."
+#~ msgstr "Il contat no'l è stât cjatât."
+
+#~ msgid "This contact ID already exists."
+#~ msgstr "Il ID dal contat al esist digià."
+
+#~ msgid "The protocol is not supported."
+#~ msgstr "Il protocol a no'l è supuartât."
+
+#~ msgid "The operation was cancelled."
+#~ msgstr "L'operazion a jè stade cancellade."
+
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "L'operazion a no puès sedi cancellade."
+
+#~ msgid "The address book authentication failed."
+#~ msgstr "Le autenticazion de rubriche a jè fallide."
+
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr ""
+#~ "A si scugne vê l'autenticazion par acedi ae rubriche ma no jè stade dade."
+
+#~ msgid "A secure connection is not available."
+#~ msgstr "Une conession sigure a no jè disponibile."
+
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "Al è sucedût un erôr CORBA jentrant te rubriche."
+
+#~ msgid "The address book source does not exist."
+#~ msgstr "Il sorgint de rubriche no'l esist."
+
+#~ msgid "An unknown error occurred."
+#~ msgstr "Al è sucedût un erôr no cognosût."
+
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "Nissune conession al servizi rimôt di gajim."
+
+#~ msgid "Sending file failed"
+#~ msgstr "Inviament dal file falît"
+
+#~ msgid "Recipient is missing."
+#~ msgstr "Al mancje il destinatari."
+
+#~ msgid "Unknown recipient."
+#~ msgstr "Destinatari no cognosût."
+
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Mesaç Istantani (Gajim)"
+
+#~ msgid "New CD/DVD"
+#~ msgstr "Gnûf CD/DVD"
+
+#~ msgid "Existing CD/DVD"
+#~ msgstr "CD/DVD esistent"
+
+#~ msgid "CD/DVD Creator"
+#~ msgstr "Creazion CD/DVD"
+
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Mesaç Istantani (Pidgin)"
+
+#~ msgid "Removable disks and shares"
+#~ msgstr "Condivisions e discs rimovibii"
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "Server multimediâl UPnP"

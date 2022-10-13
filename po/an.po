@@ -1,0 +1,234 @@
+# Aragonese translation for nautilus-sendto.
+# Copyright (C) 2013 nautilus-sendto's COPYRIGHT HOLDER
+# This file is distributed under the same license as the nautilus-sendto package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Daniel Martinez <entaltoaragon@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-sendto master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-01-22 23:09+0000\n"
+"PO-Revision-Date: 2015-01-23 09:56+0100\n"
+"Last-Translator: Daniel Martinez <entaltoaragon@gmail.com>\n"
+"Language-Team: Aragonés <softaragones@googlegroups.com>\n"
+"Language: an\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#: ../src/nautilus-sendto.c:53
+#| msgid "Run from build directory"
+msgid "Run from build directory (ignored)"
+msgstr "Executar dende a carpeta de construcción (ignorada)"
+
+#: ../src/nautilus-sendto.c:54
+#| msgid "Use XID as parent to the send dialogue"
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "Usar XID como o pai ta ninviar o dialogo (ignorada)"
+
+#: ../src/nautilus-sendto.c:55
+msgid "Files to send"
+msgstr "Fichers ta ninviar"
+
+#: ../src/nautilus-sendto.c:56
+msgid "Output version information and exit"
+msgstr "Amostrar información d'a versión y salir"
+
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:244
+msgid "Archive"
+msgstr "Archivador"
+
+#: ../src/nautilus-sendto.c:507
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+msgstr "No se podioron analisar as opcions d'a linia de comandos: %s\n"
+
+#: ../src/nautilus-sendto.c:520
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "No i hai garra client de correu-y instalau, no se ninvian os fichers\n"
+
+#: ../src/nautilus-sendto.c:526
+#, c-format
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Aspera que se pasen como opcions URI u nombres de fichero\n"
+
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "Compartindo una carpeta"
+#~ msgstr[1] "Compartindo %d carpetas"
+
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "Compartindo %d fichers y carpetas"
+
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "Compartindo un video"
+#~ msgstr[1] "Compartindo %d videos"
+
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "Compartindo un retrato"
+#~ msgstr[1] "Compartindo %d retratos"
+
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "Compartindo una imachen"
+#~ msgstr[1] "Compartindo %d imachens"
+
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "Compartindo un fichero de texto"
+#~ msgstr[1] "Compartindo %d fichers de texto"
+
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "Compartindo un fichero"
+#~ msgstr[1] "Compartindo %d fichers"
+
+#~ msgid "_Send"
+#~ msgstr "_Ninviar"
+
+#~ msgid "Files"
+#~ msgstr "Fichers"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Cancelar"
+
+#~ msgid "Send _packed in:"
+#~ msgstr "Ninviar em_paquetau en:"
+
+#~ msgid "Mail"
+#~ msgstr "Correu electronico"
+
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "No se puede obtener o contacto: %s"
+
+#~ msgid "Could not find contact: %s"
+#~ msgstr "No se puede trobar o contacto: %s"
+
+#~ msgid "Cannot create searchable view."
+#~ msgstr "No se puede creyar una vista buscable."
+
+#~ msgid "Success"
+#~ msgstr "Exito"
+
+#~ msgid "An argument was invalid."
+#~ msgstr "Un argumento no yera valido."
+
+#~ msgid "The address book is busy."
+#~ msgstr "A libreta adrezas ye ocupada."
+
+#~ msgid "The address book is offline."
+#~ msgstr "A libreta d'adrezas ye desconnectada."
+
+#~ msgid "The address book does not exist."
+#~ msgstr "A libreta d'adrezas no existe."
+
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "O contacto \"Yo\" no existe."
+
+#~ msgid "The address book is not loaded."
+#~ msgstr "A libreta d'adrezas no ye cargau."
+
+#~ msgid "The address book is already loaded."
+#~ msgstr "A libreta d'adrezas ya ye cargau."
+
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "Se denegó o permiso en accedir a la libreta d'adrezas."
+
+#~ msgid "The contact was not found."
+#~ msgstr "No se trobó o contacto."
+
+#~ msgid "This contact ID already exists."
+#~ msgstr "Iste ID de contacto ya existe."
+
+#~ msgid "The protocol is not supported."
+#~ msgstr "O protocolo no ye suportau."
+
+#~ msgid "The operation was cancelled."
+#~ msgstr "A operación se canceló."
+
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "A operación no podió cancelar-se."
+
+#~ msgid "The address book authentication failed."
+#~ msgstr "Falló a verificación de l'autenticidat d'a libreta d'adrezas."
+
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr ""
+#~ "Se requiere autenticación ta accedir a la libreta d'adrezas y no se "
+#~ "proporcionó."
+
+#~ msgid "A secure connection is not available."
+#~ msgstr "No ye disponible una connexión segura."
+
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "Ocurrió una error CORBA en accedir a la libreta d'adrezas."
+
+#~ msgid "The address book source does not exist."
+#~ msgstr "A fuent d'a libreta de drirecciones no existe."
+
+#~ msgid "An unknown error occurred."
+#~ msgstr "Ocurrió una error desconoixida."
+
+#~ msgid "Unable to send file"
+#~ msgstr "No ye posible ninviar o fichero"
+
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "No i hai garra connexión con o servicio remoto de gajim."
+
+#~ msgid "Sending file failed"
+#~ msgstr "Ha fallau o ninvio d'o fichero"
+
+#~ msgid "Recipient is missing."
+#~ msgstr "Falta o destinatario."
+
+#~ msgid "Unknown recipient."
+#~ msgstr "Destinatario desconoixiu."
+
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Mensache instantanio (Gajim)"
+
+#~ msgid "New CD/DVD"
+#~ msgstr "CD/DVD nuevo"
+
+#~ msgid "Existing CD/DVD"
+#~ msgstr "CD/DVD existent"
+
+#~ msgid "CD/DVD Creator"
+#~ msgstr "Creador de CD/DVD"
+
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Mensache instantanio (Pidgin)"
+
+#~ msgid "Removable disks and shares"
+#~ msgstr "Suportes extraíbles y comparticions"
+
+#~ msgid "Uploading '%s'"
+#~ msgstr "Puyando \"%s\""
+
+#~ msgid "Preparing upload"
+#~ msgstr "Preparando a puyada"
+
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "O servicio \"%s\" no ye configurau"
+
+#~ msgid "_Configure"
+#~ msgstr "_Configurar"
+
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "Sesión encetada en o servicio \"%s\"."
+
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "No se podió encetar sesión en o servicio \"%s\"."
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "Servidor multimedia UPnP"
